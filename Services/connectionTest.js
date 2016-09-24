@@ -1,6 +1,6 @@
-module.exports = function(app){
+module.exports = function(app, routename){
 
-	app.get('/testConnection', function(req, res){
+	app.get(routename, function(req, res){
 		res.send({
 			 message : 'Conexão efetuada com sucesso!'
 			,date    : new Date()
