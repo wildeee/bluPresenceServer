@@ -5,6 +5,7 @@ module.exports = function(){
 		 root           : '/'
 		,connectionTest : '/testConnection'
 		,authentication : '/authentication'
+		,classes        : '/classes/professor/:id'
 
 
 	};
