@@ -19,8 +19,7 @@ module.exports = function(app, routename){
 				delete someClass.professor;
 				return someClass;
 			});
-		console.log(professorClasses);
-
+			
 		res.send(professorClasses);
 	});
 
