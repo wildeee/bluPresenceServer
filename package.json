@@ -32,6 +32,7 @@
   "homepage": "https://github.com/wildeee/bluPresenceServer#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "deepcopy": "^0.6.3",
     "express": "^4.14.0"
   }
 }
