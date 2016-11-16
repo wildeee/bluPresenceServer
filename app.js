@@ -11,6 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 require('./Services/connectionTest.js')(app, routes.connectionTest);
 require('./Services/authentication.js')(app, routes.authentication);
 require('./Services/classes.js')       (app, routes.classes);
+require('./Services/students.js')      (app, routes.students);
 
 
 app.get(routes.root, function(req, res){
