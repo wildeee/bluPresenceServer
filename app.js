@@ -20,4 +20,4 @@ app.get(routes.root, function(req, res){
 	res.send('Sucesso! Bem vindo ao servidor do BluPresence!');
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
