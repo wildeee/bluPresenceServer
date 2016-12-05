@@ -1,39 +1,63 @@
 [
 	{
-		 "id"   : 1
-		,"nome" : "Wilde Augusto Picciani Rossi"
+		 "id"       : 1
+		,"nome"     : "Wilde Augusto Picciani Rossi"
+		,"login"    : "ra77350"
+		,"password" : "senha"
 	},{
-		 "id"   : 2
-		,"nome" : "Ca-esc"
+		 "id"       : 2
+		,"nome"     : "Ca-esc"
+		,"login"    : "ra2"
+		,"password" : "senha"
 	},{
-		 "id"   : 3
-		,"nome" : "Tine-cia"
+		 "id"       : 3
+		,"nome"     : "Tine-cia"
+		,"login"    : "ra3"
+		,"password" : "senha"
 	},{
-		 "id"   : 4
-		,"nome" : "Vell'cen"
+		 "id"       : 4
+		,"nome"     : "Vell'cen"
+		,"login"    : "ra4"
+		,"password" : "senha"
 	},{
-		 "id"   : 5
-		,"nome" : "Retclanielleof"
+		 "id"       : 5
+		,"nome"     : "Retclanielleof"
+		,"login"    : "ra5"
+		,"password" : "senha"
 	},{
-		 "id"   : 7
-		,"nome" : "Vell'cen"
+		 "id"       : 7
+		,"nome"     : "Vell'cen"
+		,"login"    : "ra7"
+		,"password" : "senha"
 	},{
-		 "id"   : 8
-		,"nome" : "Leeegelbrandjack"
+		 "id"       : 8
+		,"nome"     : "Leeegelbrandjack"
+		,"login"    : "ra8"
+		,"password" : "senha"
 	},{
-		 "id"   : 10
-		,"nome" : "Sa-leof"
+		 "id"       : 10
+		,"nome"     : "Sa-leof"
+		,"login"    : "ra10"
+		,"password" : "senha"
 	},{
-		 "id"   : 11
-		,"nome" : "Rienaldjo"
+		 "id"       : 11
+		,"nome"     : "Rienaldjo"
+		,"login"    : "ra11"
+		,"password" : "senha"
 	},{
-		 "id"   : 12
-		,"nome" : "A-beth"
+		 "id"       : 12
+		,"nome"     : "A-beth"
+		,"login"    : "ra12"
+		,"password" : "senha"
 	},{
-		 "id"   : 25
-		,"nome" : "Linlocjoan"
+		 "id"       : 25
+		,"nome"     : "Linlocjoan"
+		,"login"    : "ra25"
+		,"password" : "senha"
 	},{
-		 "id"   : 51
-		,"nome" : "Gar-thae"
+		 "id"       : 51
+		,"nome"     : "Gar-thae"
+		,"login"    : "ra51"
+		,"password" : "senha"
 	}
 ]

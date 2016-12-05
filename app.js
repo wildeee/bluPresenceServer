@@ -8,11 +8,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
-require('./Services/connectionTest.js') (app, routes.connectionTest);
-require('./Services/authentication.js') (app, routes.authentication);
-require('./Services/classes.js')        (app, routes.classes);
-require('./Services/students.js')       (app, routes.students);
-require('./Services/presenceControl.js')(app, routes.presenceControl);
+require('./Services/connectionTest.js')       (app, routes.connectionTest);
+require('./Services/authentication.js')       (app, routes.authentication);
+require('./Services/classes.js')              (app, routes.classes);
+require('./Services/students.js')             (app, routes.students);
+require('./Services/presenceControl.js')      (app, routes.presenceControl);
+require('./Services/studentAuthentication.js')(app, routes.studentAuthentication);
 
 
 app.get(routes.root, function(req, res){

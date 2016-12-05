@@ -9,6 +9,11 @@ module.exports = function(app, routename){
 			return ids.some(function(id){
 				return id == student.id;
 			});
+		}).map(function(student){
+			return {
+				 id   : student.id
+				,nome : student.nome
+			};
 		});
 		res.send(classStudents);
 	});
